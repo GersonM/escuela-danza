@@ -1,1 +1,46 @@
 /* Inserta tu codigo aqui */
+.mi-contenedor
+{
+    width: 300px;
+    margin: 0 auto;
+}
+.hero-section
+{
+    background: url("../img/dance_1.jpg");
+    background-size: cover;
+}
+
+.instructores
+{
+    overflow: hidden;
+    height: 305px;
+}
+.instructores img
+{
+    float: left;
+    width: 50%;
+}
+.content-instructores
+{
+    text-align: center;
+    position: relative;
+}
+.btn-instrustores
+{
+    position: absolute;
+    display: block;
+    background: #2651c6;
+    color: #fff;
+    bottom: 0;
+    line-height: 80px;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+}
+
+.ubicanos
+{
+    background: #2651c6;
+    color: #fff;
+    padding: 50px 0;
+}
