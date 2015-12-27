@@ -4,12 +4,35 @@
     width: 300px;
     margin: 0 auto;
 }
-.hero-section
+.bg-video
 {
-    background: url("../img/dance_1.jpg");
-    background-size: cover;
+    position: absolute;
+    display: table;
+    background: #000;
+    z-index: -1;
+    display: table-cell;
+}
+.bg-video video
+{
+    vertical-align: middle;
 }
 
+.hero-section
+{
+    outline: 1px solid rgba(255, 0, 0, .4);
+    background-size: cover;
+    color: #ffffff;
+    overflow: hidden;
+    position: relative;
+}
+.hero-section .container
+{
+    padding: 80px 0;
+}
+.hero-section h3
+{
+    color: #ffffff;
+}
 .instructores
 {
     overflow: hidden;
@@ -25,7 +48,7 @@
     text-align: center;
     position: relative;
 }
-.btn-instrustores
+.btn-instructores
 {
     position: absolute;
     display: block;
@@ -34,6 +57,7 @@
     bottom: 0;
     line-height: 80px;
     width: 400px;
+    vertical-align: text-bottom;
     left: 50%;
     margin-left: -200px;
 }
